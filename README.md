@@ -1,23 +1,21 @@
-# imgipsum
+# dummyimages
 
-Dynamic placeholder images in Node. Inspired by [Dummy
-Image](http://dummyimage.com/), [Placehold.it](http://placehold.it/), and the
-likes.
+Copy of impgipsum(<jico@baligod.com>) with new canvas method 
 
 ---
 
 ## Requirements
 
-* Node.js >= 0.10.0
-* [Express](http://expressjs.com/) >= 4.0
+* Node.js >= 8.11.4
+* [Express](http://expressjs.com/) >= 4.17.0
 * [Cairo](http://cairographics.org/) (required by [node-canvas](https://github.com/Automattic/node-canvas))
 
 ## Installation
 
-Download `imgipsum` and save it as a dependency.
+Download `dummyimages` and save it as a dependency.
 
 ```bash
-$ npm install imgipsum --save
+$ yarn add dummyimages
 ```
 
 Use it as middleware in your Express app.
@@ -26,9 +24,9 @@ Use it as middleware in your Express app.
 var express = require('express');
 var app     = express();
 
-var imgipsum = require('imgipsum');
+var dummyimages = require('dummyimages');
 
-app.use(imgipsum());
+app.use(dummyimages());
 
 app.listen(8080);
 console.log('Listening on ' + 8080);
@@ -40,7 +38,7 @@ You can enable the middleware passing in optional parameters. The defaults are
 listed below.
 
 ```javascript
-app.use(imgipsum({
+app.use(dummyimages({
   colorBg:     '999',      // Default image background color
   colorFg:     'fff',      // Default image text color
   maxFontSize: 120,        // Max font size
