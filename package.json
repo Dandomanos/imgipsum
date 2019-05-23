@@ -1,8 +1,8 @@
 {
-  "name": "imgipsum",
-  "description": "Express middleware for dynamic image placeholders.",
+  "name": "dummyimages",
+  "description": "Copy of impgipsum with new canvas method by Jico Baligod <jico@baligod.com>",
   "version": "0.0.1",
-  "author": "Jico Baligod <jico@baligod.com>",
+  "author": "Dandomanos <dandomanos@gmail.com>",
   "main": "./index.js",
   "keywords": [
     "express",
@@ -10,23 +10,23 @@
     "image",
     "placeholder"
   ],
-  "homepage": "https://github.com/jico/imgipsum",
+  "homepage": "https://github.com/Dandomanos/imgipsum",
   "license": "MIT",
   "engines": {
-    "node": ">=0.10.0 <0.12"
+    "node": "^v8.11.4"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jico/imgipsum.git"
+    "url": "https://github.com/Dandomanos/imgipsum"
   },
   "dependencies": {
     "canvas": "^2.5.0"
   },
   "devDependencies": {
-    "express": "~4.0.0"
+    "express": "^4.17.0"
   },
   "peerDependencies": {
-    "express": "~4.0.0"
+    "express": "^4.17.0"
   },
   "scripts": {
     "start": "node server.js"
