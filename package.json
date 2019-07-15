@@ -1,7 +1,7 @@
 {
   "name": "dummyimages",
   "description": "Copy of impgipsum with new canvas method by Jico Baligod <jico@baligod.com>",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Dandomanos <dandomanos@gmail.com>",
   "main": "./index.js",
   "keywords": [
