@@ -13,7 +13,7 @@
   "homepage": "https://github.com/Dandomanos/imgipsum",
   "license": "MIT",
   "engines": {
-    "node": "^8.11.4"
+    "node": ">=8.11.4"
   },
   "repository": {
     "type": "git",
